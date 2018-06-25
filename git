@@ -1,0 +1,44 @@
+
+git log-logs all the commits
+
+git diff first(id) second(id)-gives the differences made in all the files in the two commits
+
+git clone-clones a rep on your local host
+
+git checkout id-get the codebase of that commit
+
+git status-status of the files in the rep
+
+git init-initiaize the rep
+
+git add filename-adds the file in the staging area
+
+git reset HEAD filename-removes file from the staging area
+
+git commit-commit the files in the staging area
+
+git commit -m "msg"-shortcut to the above
+
+git diff-to compare working dir and staging area
+
+git diff --staged-to compare staging area and most recent commit
+
+git reset --hard-discards the changes in the working dir and the staging area
+
+git checkout master-
+
+git branch-displays all the branches in the rep
+
+git branch name-create a branch of that name
+
+git checkout name_of_branch-will make changes in that branch
+
+git merge branch1 branch2-merge two branches
+
+git log --graph --oneline-display log in graph format
+
+git remote add origin(Any name) URL-to add remote
+
+git remote -v-to check if the URL was added correctly
+
+git push origin(name of the added remote) master(Branch to be synced)-upload the files
