@@ -40,3 +40,5 @@ git remote add origin(Any name) URL-to add remote
 git remote -v-to check if the URL was added correctly
 
 git push origin(name of the added remote) master(Branch to be synced)-upload the files
+
+git pull origin master-to sync cloud and localhost according to the cloud
