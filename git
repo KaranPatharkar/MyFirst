@@ -25,8 +25,6 @@ git diff --staged-to compare staging area and most recent commit
 
 git reset --hard-discards the changes in the working dir and the staging area
 
-git checkout master-
-
 git branch-displays all the branches in the rep
 
 git branch name-create a branch of that name
